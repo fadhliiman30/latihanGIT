@@ -5,7 +5,31 @@
 </head>
 <body>
     <h1>Program GIT Camp404</h1>
+<<<<<<< HEAD
     <p>Daftarkan di sini!</p>
     <button>Daftar</button>
+=======
+    <p>Klik daftar untuk meningkatkan skill kamu!</p>
+    <button onclick="cekProgram()">Cek Program</button>
+    <div id="program" style="visibility: hidden;">
+        <table border="1">
+            <tr>
+                <td>Program</td>
+                <td>Waktu</td>
+                <td>Daftar Program</td>
+            </tr>
+            <tr>
+                <td>GIT Personal Project</td>
+                <td>25 Agustus 2022</td>
+                <td><button>Daftar</button></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        function cekProgram() {
+            document.getElementById("program").style.visibility="visible"
+        }
+    </script>
+>>>>>>> dev-program
 </body>
 </html>
